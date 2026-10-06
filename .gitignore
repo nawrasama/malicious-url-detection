@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data files (too large)
+data/raw/*.csv
+data/processed/*.csv
+data/splits/*.npz
+*.npz
+*.pkl
+*.joblib
+*.h5
+
+# Models
+models/**/*.pkl
+models/**/*.joblib
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
